@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install:*)",
+      "Bash(pdftoppm:*)",
+      "Bash(pdftotext:*)",
+      "Bash(python3:*)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(open:*)",
+      "Bash(ls:*)",
+      "Bash(for class in \"handbook\" \"methodology\" \"methodology__materials\" \"narrative__content\" \"pillars\" \"platform__info\" \"platform__try\" \"team\")",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(sort:*)"
+    ]
+  }
+}

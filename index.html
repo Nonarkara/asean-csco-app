@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Citizen-First City — ASEAN CSCO Handbook</title>
+  <meta name="description" content="A citizen-centric smart city playbook forged under real pressure. Real stories, real tools, real results from ASEAN city practitioners in Nakhon Si Thammarat, Thailand.">
+  <meta property="og:title" content="The Citizen-First City — Built in a Flood. Used in Real Life.">
+  <meta property="og:description" content="A citizen-centric smart city playbook forged under real pressure—not conference rooms.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Playfair+Display:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== SPONSOR BAR (top) ====== -->
+  <div class="sponsor-bar">
+    <div class="container sponsor-bar__inner">
+      <span class="sponsor-bar__label">Supported by</span>
+      <div class="sponsor-bar__logos">
+        <img src="photos/png-transparent-emblem-of-the-association-of-southeast-asian-nations-philippines-aseanの紋章-asean-economic-community-southeast-asia-text-logo-sign.png" alt="ASEAN" class="sponsor-bar__logo">
+        <img src="photos/depa.png" alt="depa — Digital Economy Promotion Agency" class="sponsor-bar__logo">
+        <img src="photos/Smart City Thailand logo.jpg" alt="Smart City Thailand" class="sponsor-bar__logo">
+        <img src="photos/Seal_of_Nakhon_Si_Thammarat.png" alt="Nakhon Si Thammarat Municipality" class="sponsor-bar__logo">
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <svg width="24" height="24" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#fff" fill-opacity=".12"/><path d="M9 22V12l7-5 7 5v10l-7-4-7 4z" fill="#fff" opacity=".85"/></svg>
+        <span>CSCO Handbook</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#manifesto">Manifesto</a></li>
+        <li><a href="#blueprint">Blueprint</a></li>
+        <li><a href="#toolkit">Steal Ideas</a></li>
+        <li><a href="#platform">Platform</a></li>
+        <li><a href="#narrative">Story</a></li>
+        <li><a href="#handbook">Handbook</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="https://www.linkedin.com/company/asean-csco/" target="_blank" rel="noopener" class="btn btn--nav">Join ASEAN CSCO</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <header class="hero" id="hero">
+    <div class="hero__photo-bg" style="background-image:url('photos/1763875142881.jpg')"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__inner container">
+      <p class="hero__eyebrow">ASEAN Chief Smart City Officer Handbook</p>
+      <h1 class="hero__title">We Built This Handbook<br><span class="hero__title-em">While Fighting a Flood</span></h1>
+      <p class="hero__subtitle">A citizen-centric smart city playbook forged under real pressure&mdash;not conference rooms. From the CSCO Workshop in Nakhon Si Thammarat, Thailand.</p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-num">112,000<span class="hero__stat-plus">+</span></span>
+          <span class="hero__stat-label">Active app users</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">&lt;48<span class="hero__stat-unit">hrs</span></span>
+          <span class="hero__stat-label">Avg. issue resolution</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">10<span class="hero__stat-unit">hr</span></span>
+          <span class="hero__stat-label">Flood warning window</span>
+        </div>
+      </div>
+      <div class="hero__actions">
+        <a href="#handbook" class="btn btn--primary btn--lg">Read the Handbook <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a href="#manifesto" class="btn btn--ghost-light btn--lg">Read the Manifesto</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true"><span>Scroll</span><div class="hero__scroll-line"></div></div>
+  </header>
+
+  <!-- ====== PHOTO STRIP ====== -->
+  <div class="photo-strip">
+    <img src="photos/1763875144710.jpg" alt="Workshop participants reviewing real-time flood data" loading="lazy">
+    <img src="photos/1763875530053.jpg" alt="Workshop discussion in conference room" loading="lazy">
+    <img src="photos/1763875144077.jpg" alt="CSCO participants at ICT center" loading="lazy">
+    <img src="photos/1763875530083.jpg" alt="Group photo at Metaverse Classroom" loading="lazy">
+  </div>
+
+  <!-- ====== MANIFESTO ====== -->
+  <section class="manifesto section" id="manifesto">
+    <div class="container">
+      <div class="manifesto__inner">
+        <p class="manifesto__label">No-Clich&eacute; Manifesto</p>
+        <div class="manifesto__statements">
+          <h2 class="manifesto__line" data-reveal>Smart City is <em>not</em> about sensors.</h2>
+          <h2 class="manifesto__line" data-reveal>It&rsquo;s about <span class="manifesto__highlight">grandma selling peanuts</span> using a QR&nbsp;code.</h2>
+          <h2 class="manifesto__line" data-reveal>Technology matters only when <em>timing</em>&nbsp;matters.</h2>
+          <h2 class="manifesto__line" data-reveal>Bureaucracy sleeps. <span class="manifesto__highlight">Water&nbsp;doesn&rsquo;t.</span></h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== THE BLUEPRINT ====== -->
+  <section class="blueprint section" id="blueprint">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">The Blueprint</span>
+        <h2 class="section__title">Four Layers of Transformation</h2>
+        <p class="section__desc">The NST Model isn&rsquo;t magic. It&rsquo;s a replicable framework&mdash;from citizen-facing solutions to the governance that makes everything possible.</p>
+      </div>
+      <div class="blueprint__grid">
+        <div class="blueprint__card" data-reveal>
+          <span class="blueprint__card-layer">Layer 1</span>
+          <h3>Visible Innovation</h3>
+          <p>Citizen-facing solutions that solve real problems. The @NakhonCity platform, Hospital on Wheels, real-time flood cameras. Reducing pothole repair from 15 days to 48 hours.</p>
+          <details class="accordion">
+            <summary class="accordion__trigger">Read more</summary>
+            <div class="accordion__content">
+              <p><strong>The @NakhonCity platform:</strong> Over 70% of the population uses it. 38,000 complaints resolved in three years. $500,000 saved in operational costs.</p>
+              <p><strong>Hospital on Wheels:</strong> A smart bus with doctors, nurses, and pharmacists brings healthcare to 60,000 residents who can&rsquo;t easily travel to the hospital.</p>
+              <p><strong>Flood Management:</strong> Publicly accessible water-level cameras give citizens a 10-hour &ldquo;golden period&rdquo; to prepare.</p>
+            </div>
+          </details>
+        </div>
+        <div class="blueprint__card" data-reveal>
+          <span class="blueprint__card-layer">Layer 2</span>
+          <h3>People-Centric Philosophy</h3>
+          <p>The &ldquo;why&rdquo; behind the technology. An &ldquo;eatable&rdquo; smart city where complex tech becomes simple, tangible benefits every citizen can understand.</p>
+          <details class="accordion">
+            <summary class="accordion__trigger">Read more</summary>
+            <div class="accordion__content">
+              <p><strong>The &ldquo;Clever Cats&rdquo; Analogy:</strong> &ldquo;You drag a cat forward, it will go backward. But if you are a stupid cat, all the clever cats want to follow.&rdquo;</p>
+              <p><strong>Social Measure, not Social Pressure:</strong> Make adoption fun. Use gamification, community engagement, and peer visibility.</p>
+              <p><strong>2,000 student volunteers</strong> trained to help senior citizens use the platform. High schoolers become digital bridges to the older generation.</p>
+            </div>
+          </details>
+        </div>
+        <div class="blueprint__card" data-reveal>
+          <span class="blueprint__card-layer">Layer 3</span>
+          <h3>Collaborative Ecosystem</h3>
+          <p>A dynamic public-private partnership combining local knowledge, startup agility, and national strategic guidance. No big consulting firms needed.</p>
+          <details class="accordion">
+            <summary class="accordion__trigger">Read more</summary>
+            <div class="accordion__content">
+              <p><strong>City Leadership:</strong> Local knowledge, political will, deep understanding of citizen pain points.</p>
+              <p><strong>Digital Startups:</strong> Agile, cost-effective solutions. The platform was built by a small local startup.</p>
+              <p><strong>National Agency (depa):</strong> Strategic guidance, ecosystem support, co-funding via the Digital Catalog.</p>
+            </div>
+          </details>
+        </div>
+        <div class="blueprint__card" data-reveal>
+          <span class="blueprint__card-layer">Layer 4</span>
+          <h3>Empowered Local Governance</h3>
+          <p>The &ldquo;Strong Mayor&rdquo; system&mdash;direct election, executive power, budget control, and direct accountability to citizens.</p>
+          <details class="accordion">
+            <summary class="accordion__trigger">Read more</summary>
+            <div class="accordion__content">
+              <p><strong>Before 1997:</strong> Mayors chosen by municipal assembly. Diffuse power, short tenures, limited accountability.</p>
+              <p><strong>After 1997:</strong> Directly elected mayors with executive authority, secure tenures, control over budgets. Voter turnout rose from 40.59% to 73.12%.</p>
+              <p><strong>Mayor Kanop&rsquo;s guarantee:</strong> &ldquo;If you report it, the city will fix it in 48 hours. If it&rsquo;s not done, the mayor must go out and fix it.&rdquo;</p>
+            </div>
+          </details>
+        </div>
+      </div>
+      <div class="blueprint__photo" data-reveal>
+        <img src="photos/1763875142225.jpg" alt="Workshop participants examining the city monitoring dashboard" loading="lazy">
+        <p class="blueprint__photo-caption">Workshop participants examine NST&rsquo;s real-time city monitoring dashboard with the mayor&rsquo;s team.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOUR PILLARS ====== -->
+  <section class="pillars section section--dark" id="pillars">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag section__tag--light">The Playbook</span>
+        <h2 class="section__title section__title--light">Four Pillars in Action</h2>
+        <p class="section__desc section__desc--light">Not theory&mdash;a tested sequence from pain point to scaled solution.</p>
+      </div>
+      <div class="pillars__grid">
+        <div class="pillars__card" data-reveal>
+          <span class="pillars__num">01</span>
+          <h3>People</h3>
+          <p class="pillars__subtitle">Start with Pain, Not Technology</p>
+          <p>Identify what frustrates your citizens. The @NakhonCity platform was born from citizen frustration with a 15-day paper-based pothole repair process.</p>
+        </div>
+        <div class="pillars__card" data-reveal>
+          <span class="pillars__num">02</span>
+          <h3>Purpose</h3>
+          <p class="pillars__subtitle">Define the Human Benefit</p>
+          <p>The Hospital on Wheels wasn&rsquo;t about deploying an IoT bus. It was about 60,000 elderly residents who couldn&rsquo;t travel to the hospital.</p>
+        </div>
+        <div class="pillars__card" data-reveal>
+          <span class="pillars__num">03</span>
+          <h3>Practicality</h3>
+          <p class="pillars__subtitle">Use What You Have</p>
+          <p>The flood sensors were cheap. The screens were old. The LINE group was free. What made it work was the system design. Partner with local startups, not global consultants.</p>
+        </div>
+        <div class="pillars__card" data-reveal>
+          <span class="pillars__num">04</span>
+          <h3>Proof</h3>
+          <p class="pillars__subtitle">Test Small, Learn Fast</p>
+          <p>&ldquo;Launch pilots in weeks, not years.&rdquo; The @NakhonCity platform was rebuilt twice in three years based on user feedback. Then scale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== STEAL THIS IDEA TOOLKIT ====== -->
+  <section class="toolkit section" id="toolkit">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">Toolkit</span>
+        <h2 class="section__title">The &ldquo;Steal This Idea&rdquo; Toolkit</h2>
+        <p class="section__desc">Six proven ideas. No permission required. Click to copy a ready-to-use JSON block you can paste into any no-code builder or AI tool.</p>
+      </div>
+      <div class="toolkit__grid">
+        <div class="toolkit__card" data-reveal>
+          <div class="toolkit__card-num">01</div>
+          <h3>Hospital on Wheels</h3>
+          <p>A smart bus with doctors, nurses, and pharmacists. Telemedicine link to the city hospital. 4,000+ patients served.</p>
+          <button class="toolkit__steal-btn" data-idea="hospital-on-wheels"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" stroke="currentColor" stroke-width="1.5"/></svg> Steal This Idea</button>
+          <span class="toolkit__copied-msg">Copied!</span>
+        </div>
+        <div class="toolkit__card" data-reveal>
+          <div class="toolkit__card-num">02</div>
+          <h3>Digital Catalog</h3>
+          <p>City-maintained marketplace for local vendors. QR codes link stalls to digital storefronts. Zero tech skills required.</p>
+          <button class="toolkit__steal-btn" data-idea="digital-catalog"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" stroke="currentColor" stroke-width="1.5"/></svg> Steal This Idea</button>
+          <span class="toolkit__copied-msg">Copied!</span>
+        </div>
+        <div class="toolkit__card" data-reveal>
+          <div class="toolkit__card-num">03</div>
+          <h3>Mayor&rsquo;s Classroom</h3>
+          <p>Monthly live session: the mayor teaches and answers real questions. 170,000 views in 3 hours during flood broadcasts.</p>
+          <button class="toolkit__steal-btn" data-idea="mayors-classroom"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" stroke="currentColor" stroke-width="1.5"/></svg> Steal This Idea</button>
+          <span class="toolkit__copied-msg">Copied!</span>
+        </div>
+        <div class="toolkit__card" data-reveal>
+          <div class="toolkit__card-num">04</div>
+          <h3>5-Star Governance</h3>
+          <p>Real-time citizen ratings of every service interaction. Call center workload dropped 37%. Satisfaction rose from 68% to 92%.</p>
+          <button class="toolkit__steal-btn" data-idea="5-star-governance"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" stroke="currentColor" stroke-width="1.5"/></svg> Steal This Idea</button>
+          <span class="toolkit__copied-msg">Copied!</span>
+        </div>
+        <div class="toolkit__card" data-reveal>
+          <div class="toolkit__card-num">05</div>
+          <h3>Metaverse Classroom</h3>
+          <p>AR/VR in real classrooms for 11,000 students. 300 trained teachers, 1,500 digital lessons. Parents <em>demand</em> expansion.</p>
+          <button class="toolkit__steal-btn" data-idea="metaverse-classroom"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" stroke="currentColor" stroke-width="1.5"/></svg> Steal This Idea</button>
+          <span class="toolkit__copied-msg">Copied!</span>
+        </div>
+        <div class="toolkit__card" data-reveal>
+          <div class="toolkit__card-num">06</div>
+          <h3>Data-Driven Decisions</h3>
+          <p>Every meeting starts with a live dashboard. Complaint volumes, resolution rates, sensor readings. Data beats opinions.</p>
+          <button class="toolkit__steal-btn" data-idea="data-driven-decisions"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" stroke="currentColor" stroke-width="1.5"/></svg> Steal This Idea</button>
+          <span class="toolkit__copied-msg">Copied!</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SCTHCDP PLATFORM ====== -->
+  <section class="platform section" id="platform">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">Workshop Product</span>
+        <h2 class="section__title">Thailand Smart City Data Platform</h2>
+        <p class="section__desc">The brain of the smart city. A multi-channel listening and analytics platform that turns noise into operational intelligence&mdash;built as a direct product of this workshop.</p>
+      </div>
+
+      <div class="platform__showcase" data-reveal>
+        <div class="platform__screenshot">
+          <img src="photos/FB_IMG_1763702950339.jpg" alt="ASEAN CSCO team at the ICT & CCTV Command Center — Nakhon Si Thammarat's real-time city monitoring hub" loading="lazy">
+        </div>
+        <div class="platform__info">
+          <h3 class="platform__info-title">SCTHCDP</h3>
+          <p class="platform__info-desc">Most cities have data, but no insight. During the workshop, we discovered that the citizen reporting system that made NST famous could be dramatically enhanced with AI. So we built it.</p>
+          <div class="platform__features">
+            <div class="platform__feature">
+              <span class="platform__feature-icon">📡</span>
+              <div>
+                <strong>Unified Data Ingestion</strong>
+                <p>Collecting data from IoT sensors, LINE messenger (Thailand&rsquo;s #1 chat app with 54M+ daily users), and existing city databases in one stream.</p>
+              </div>
+            </div>
+            <div class="platform__feature">
+              <span class="platform__feature-icon">🧠</span>
+              <div>
+                <strong>AI-Powered Analysis</strong>
+                <p>Automatically structuring unstructured citizen reports&mdash;photos of potholes, flood complaints, broken lights&mdash;into actionable operational data.</p>
+              </div>
+            </div>
+            <div class="platform__feature">
+              <span class="platform__feature-icon">🌏</span>
+              <div>
+                <strong>UN-Habitat Standard</strong>
+                <p>The first platform in the region aligned with global urban indicators&mdash;endorsed by Clinton Moore from UNDP during the workshop.</p>
+              </div>
+            </div>
+          </div>
+          <p class="platform__why-line"><strong>Why LINE Messenger?</strong> In Thailand, 95% of smartphone users have LINE installed. Building a mini-app inside LINE means zero downloads, zero friction, instant citizen adoption. You don&rsquo;t build a new app people won&rsquo;t download&mdash;you go where they already are.</p>
+        </div>
+      </div>
+
+      <!-- Vibes Dashboard -->
+      <div class="platform__vibes" data-reveal>
+        <h3 class="platform__vibes-title">Live Vibes Dashboard</h3>
+        <p class="platform__vibes-desc">Real-time operational intelligence. What a smart city command center sees right now. For privacy reasons (PDPA compliance), we show anonymized metrics rather than the live citizen photo feed&mdash;though the full system does process images, geolocations, and sentiment analysis in real time.</p>
+        <div id="slic-vibes-widget">
+          <div id="gdelt-feed" class="platform__vibes-grid">
+          </div>
+        </div>
+      </div>
+
+      <!-- QR Codes -->
+      <div class="platform__try" data-reveal>
+        <h3 class="platform__try-title">Try It Yourself</h3>
+        <p class="platform__try-desc">Scan a QR code to test the citizen reporting system. Report an issue, see it on the dashboard. This is the same system NST uses&mdash;now AI-enhanced and available via LINE and Telegram.</p>
+        <div class="platform__qr-grid">
+          <div class="platform__qr-card">
+            <div class="platform__qr-visual platform__qr-visual--line">
+              <svg viewBox="0 0 120 120" width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="120" height="120" rx="12" fill="#06C755"/>
+                <text x="60" y="42" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="14" font-weight="700" fill="white">LINE</text>
+                <rect x="24" y="52" width="72" height="52" rx="4" fill="white"/>
+                <!-- QR pattern -->
+                <rect x="28" y="56" width="12" height="12" fill="#06C755"/><rect x="44" y="56" width="4" height="4" fill="#06C755"/><rect x="52" y="56" width="4" height="4" fill="#06C755"/><rect x="60" y="56" width="4" height="4" fill="#06C755"/><rect x="76" y="56" width="12" height="12" fill="#06C755"/>
+                <rect x="28" y="72" width="4" height="4" fill="#06C755"/><rect x="36" y="72" width="4" height="4" fill="#06C755"/><rect x="44" y="72" width="8" height="4" fill="#06C755"/><rect x="56" y="72" width="4" height="4" fill="#06C755"/><rect x="64" y="72" width="8" height="4" fill="#06C755"/><rect x="76" y="72" width="4" height="4" fill="#06C755"/><rect x="84" y="72" width="4" height="4" fill="#06C755"/>
+                <rect x="28" y="80" width="12" height="4" fill="#06C755"/><rect x="48" y="80" width="4" height="4" fill="#06C755"/><rect x="60" y="80" width="4" height="4" fill="#06C755"/><rect x="68" y="80" width="4" height="4" fill="#06C755"/><rect x="76" y="80" width="12" height="4" fill="#06C755"/>
+                <rect x="32" y="88" width="8" height="4" fill="#06C755"/><rect x="44" y="88" width="4" height="4" fill="#06C755"/><rect x="52" y="88" width="8" height="4" fill="#06C755"/><rect x="64" y="88" width="4" height="4" fill="#06C755"/><rect x="72" y="88" width="8" height="4" fill="#06C755"/><rect x="84" y="88" width="4" height="4" fill="#06C755"/>
+                <rect x="28" y="96" width="12" height="4" fill="#06C755"/><rect x="48" y="96" width="12" height="4" fill="#06C755"/><rect x="68" y="96" width="4" height="4" fill="#06C755"/><rect x="76" y="96" width="12" height="4" fill="#06C755"/>
+              </svg>
+            </div>
+            <p class="platform__qr-label"><strong>LINE Mini App</strong><br><small>Thailand&rsquo;s #1 &mdash; 54M daily users &#x1F1F9;&#x1F1ED;</small></p>
+          </div>
+          <div class="platform__qr-card">
+            <div class="platform__qr-visual platform__qr-visual--telegram">
+              <svg viewBox="0 0 120 120" width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#37AEE2"/><stop offset="100%" stop-color="#1E96C8"/></linearGradient></defs>
+                <rect width="120" height="120" rx="12" fill="url(#tg)"/>
+                <text x="60" y="42" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="12" font-weight="700" fill="white">TELEGRAM</text>
+                <rect x="24" y="52" width="72" height="52" rx="4" fill="white"/>
+                <!-- QR pattern -->
+                <rect x="28" y="56" width="12" height="12" fill="#1E96C8"/><rect x="44" y="56" width="4" height="4" fill="#1E96C8"/><rect x="56" y="56" width="4" height="4" fill="#1E96C8"/><rect x="64" y="56" width="4" height="4" fill="#1E96C8"/><rect x="76" y="56" width="12" height="12" fill="#1E96C8"/>
+                <rect x="28" y="72" width="4" height="4" fill="#1E96C8"/><rect x="40" y="72" width="4" height="4" fill="#1E96C8"/><rect x="48" y="72" width="8" height="4" fill="#1E96C8"/><rect x="60" y="72" width="4" height="4" fill="#1E96C8"/><rect x="68" y="72" width="4" height="4" fill="#1E96C8"/><rect x="76" y="72" width="4" height="4" fill="#1E96C8"/><rect x="84" y="72" width="4" height="4" fill="#1E96C8"/>
+                <rect x="28" y="80" width="12" height="4" fill="#1E96C8"/><rect x="44" y="80" width="8" height="4" fill="#1E96C8"/><rect x="56" y="80" width="4" height="4" fill="#1E96C8"/><rect x="64" y="80" width="8" height="4" fill="#1E96C8"/><rect x="76" y="80" width="12" height="4" fill="#1E96C8"/>
+                <rect x="32" y="88" width="4" height="4" fill="#1E96C8"/><rect x="40" y="88" width="8" height="4" fill="#1E96C8"/><rect x="52" y="88" width="4" height="4" fill="#1E96C8"/><rect x="60" y="88" width="8" height="4" fill="#1E96C8"/><rect x="72" y="88" width="4" height="4" fill="#1E96C8"/><rect x="80" y="88" width="8" height="4" fill="#1E96C8"/>
+                <rect x="28" y="96" width="12" height="4" fill="#1E96C8"/><rect x="44" y="96" width="4" height="4" fill="#1E96C8"/><rect x="52" y="96" width="8" height="4" fill="#1E96C8"/><rect x="68" y="96" width="4" height="4" fill="#1E96C8"/><rect x="76" y="96" width="12" height="4" fill="#1E96C8"/>
+              </svg>
+            </div>
+            <p class="platform__qr-label"><strong>Telegram Bot</strong><br><small>International access &#x1F30F;</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PEOPLE ====== -->
+  <section class="people section section--alt" id="people">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">The People</span>
+        <h2 class="section__title">Behind the Work</h2>
+        <p class="section__desc">Real quotes, real decisions, real consequences.</p>
+      </div>
+      <div class="people__grid">
+        <div class="people__card" data-reveal>
+          <div class="people__avatar"><span>K</span></div>
+          <h3>Mayor Kanop Ketchart</h3>
+          <p class="people__role">Mayor, Nakhon Si Thammarat</p>
+          <blockquote class="people__quote">&ldquo;You don&rsquo;t push high technology to people. Show them the benefits. They decide. I am the last one in the train&mdash;I follow where they choose to go.&rdquo;</blockquote>
+          <p class="people__bio">PhD in engineering. After losing a controversial election in 2011, he spent years walking neighborhoods. Won all 24 council seats in 2021. Re-elected in a landslide in 2025.</p>
+        </div>
+        <div class="people__card" data-reveal>
+          <div class="people__avatar"><span>N</span></div>
+          <h3>Dr. Non Arkaraprasertkul</h3>
+          <p class="people__role">Strategic Advisor &amp; Handbook Architect</p>
+          <blockquote class="people__quote">&ldquo;If a city can&rsquo;t explain what it&rsquo;s doing in one sentence, it doesn&rsquo;t know what it&rsquo;s doing. This handbook should read like a Netflix documentary, not an academic paper.&rdquo;</blockquote>
+          <p class="people__bio">Bridges complexity and clarity. Pushed the team to write stories about real people. Orchestrated the workshop, designed the RAC knowledge system, and coordinated the AI-assisted production.</p>
+        </div>
+        <div class="people__card" data-reveal>
+          <div class="people__avatar"><span>T</span></div>
+          <h3>Tristan Dwight Domingo</h3>
+          <p class="people__role">Asst. City Administrator, Davao City, Philippines</p>
+          <blockquote class="people__quote">&ldquo;Learning directly from a city leader making real decisions is completely different from any conference. Despite the rain, I made it a point to be here.&rdquo;</blockquote>
+          <p class="people__bio">15 years in city government. Came looking for a transit solution for Davao&rsquo;s 7,000 jeepneys. Left with a governance framework and a free bus-tracking system from a Thai startup.</p>
+        </div>
+        <div class="people__card" data-reveal>
+          <div class="people__avatar"><span>C</span></div>
+          <h3>Clinton Moore</h3>
+          <p class="people__role">UNDP Urban Governance</p>
+          <blockquote class="people__quote">&ldquo;You call the mayor&mdash;does he pick up? In NST, the fate of the city diverges from that single decision.&rdquo;</blockquote>
+          <p class="people__bio">10 years in Australian local government, including Melbourne. Designed the handbook&rsquo;s governance chapter as a &ldquo;Choose Your Own Adventure&rdquo; story.</p>
+        </div>
+      </div>
+      <div class="people__group-photo" data-reveal>
+        <img src="photos/1763875528673.jpg" alt="ASEAN CSCO Workshop group jumping in front of Nakhon Si Thammarat Municipality" loading="lazy">
+        <p class="people__photo-caption">The ASEAN CSCO Workshop team in front of Nakhon Si Thammarat Municipality&mdash;between sessions and floods.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WHATSAPP-STYLE CHAT RECREATION ====== -->
+  <section class="chatlog section" id="chatlog">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">Behind the Scenes</span>
+        <h2 class="section__title">Dispatches from the Group Chat</h2>
+        <p class="section__desc">Real messages from the ASEAN-CSCOs group. Logistics, laughs, and late-night AI summaries&mdash;this is how a handbook gets built.</p>
+      </div>
+      <div class="chatlog__phone" data-reveal>
+        <div class="chatlog__header">
+          <span class="chatlog__header-icon">💬</span>
+          <div>
+            <strong>ASEAN-CSCOs</strong>
+            <small>Nat, Non, Clinton, Tristan, Ramon, Minda, Farrah, Siti Suhana, +4 more</small>
+          </div>
+        </div>
+        <div class="chatlog__messages">
+          <div class="chatlog__msg chatlog__msg--system">Nat created group &ldquo;ASEAN-CSCOs&rdquo; &mdash; Nov 7</div>
+
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Non</span>
+            <p>@Meta AI tell me about what to do in southern Thailand especially in Nakhon Si Thammarat in about 2 days</p>
+            <span class="chatlog__time">Nov 13, 7:05 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other chatlog__msg--meta">
+            <span class="chatlog__name">Meta AI</span>
+            <p>Nakhon Si Thammarat is a hidden gem in southern Thailand, rich in history, culture, and natural beauty... 🗺️</p>
+            <span class="chatlog__time">Nov 13, 7:05 PM</span>
+          </div>
+
+          <div class="chatlog__msg chatlog__msg--self">
+            <span class="chatlog__name">Non</span>
+            <p>Hi all, looking forward to the 2nd webinar! Please use lunch time to read Chapter 14 &mdash; it&rsquo;s 50/50 fiction but the core of the story is what we aim to develop. If you had to use this handbook, how would you like it to be? Like a manual? A storybook? A comic book? 😝</p>
+            <span class="chatlog__time">Nov 17, 3:40 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Sem I Lan</span>
+            <p>Sory. Whr is tis chapter 14 again 😆</p>
+            <span class="chatlog__time">Nov 17, 3:42 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Tristan</span>
+            <p>A storybook would be amazing. Something people actually want to read, not a 200-page PDF that sits in a drawer 👍</p>
+            <span class="chatlog__time">Nov 17, 3:44 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Farrah</span>
+            <p>I agree with Tristan. Maybe something like a case study book but with real stories from the ground? Not too academic 🙏</p>
+            <span class="chatlog__time">Nov 17, 3:46 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--self">
+            <span class="chatlog__name">Non</span>
+            <p>I knew it... nobody read it 😅 But this is great feedback. Stories > theory. Got it.</p>
+            <span class="chatlog__time">Nov 17, 3:47 PM</span>
+          </div>
+
+          <div class="chatlog__msg chatlog__msg--system">&mdash; Workshop Day 1 begins &mdash; Nov 20</div>
+
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Clinton</span>
+            <p>If anybody has arrived do you have plans for dinner?</p>
+            <span class="chatlog__time">Nov 19, 7:51 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Ramon</span>
+            <p>Just landed! The rain is... intense 🌧️ Is this normal?</p>
+            <span class="chatlog__time">Nov 19, 8:12 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Nat</span>
+            <p>For dinner, we recommend two local restaurants with good food not too far from our hotel 🍜 And yes Ramon, welcome to monsoon season! 😄</p>
+            <span class="chatlog__time">Nov 19, 9:31 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Siti Suhana</span>
+            <p>Looking forward to tomorrow! I&rsquo;ve been reading about the @NakhonCity platform. Very impressive for a city this size 💪</p>
+            <span class="chatlog__time">Nov 19, 10:05 PM</span>
+          </div>
+
+          <div class="chatlog__msg chatlog__msg--self">
+            <span class="chatlog__name">Non</span>
+            <p>Here are some key ideas from the meeting so far: Human-Centric Smart City Development... Inclusive Leadership... Empowerment through Education and Health Technologies... Behavioral Change as a Core Challenge... 🔥</p>
+            <span class="chatlog__time">Nov 20, 3:10 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Tristan</span>
+            <p>The mayor literally said &ldquo;I am the last one in the train.&rdquo; That line should be in the handbook. That&rsquo;s a governance philosophy right there.</p>
+            <span class="chatlog__time">Nov 20, 3:25 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Minda</span>
+            <p>What strikes me is how they use 2,000 student volunteers to bridge the digital gap. That&rsquo;s genius &mdash; free labor AND community building 🎓</p>
+            <span class="chatlog__time">Nov 20, 3:42 PM</span>
+          </div>
+
+          <div class="chatlog__msg chatlog__msg--system">&mdash; 3 AM, after Day 1 &mdash;</div>
+
+          <div class="chatlog__msg chatlog__msg--self">
+            <span class="chatlog__name">Non</span>
+            <p>Summary of Today&rsquo;s Smart City Workshop: NST succeeds because it acts fast and starts small... Engagement and trust are the real &ldquo;infrastructure&rdquo;... Every ASEAN city can apply these lessons in its own context.</p>
+            <span class="chatlog__time">Nov 21, 3:09 AM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Clinton</span>
+            <p>Non... it&rsquo;s 3 AM. Are you human? 😳</p>
+            <span class="chatlog__time">Nov 21, 3:11 AM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--self">
+            <span class="chatlog__name">Non</span>
+            <p>Sleep is for cities that don&rsquo;t have deadlines 😂 Once we get the book done maybe we can find some funding to give each of you the Smart City Officers jackets 😂😂</p>
+            <span class="chatlog__time">Nov 21, 3:13 AM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Ramon</span>
+            <p>I want that jacket! Can it say &ldquo;Smart City Officers&rdquo; on the back? 🧥😎</p>
+            <span class="chatlog__time">Nov 21, 7:15 AM</span>
+          </div>
+
+          <div class="chatlog__msg chatlog__msg--system">&mdash; Workshop Day 2 &mdash; The flood hits</div>
+
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Nat</span>
+            <p>⚠️ Water level rising. Mayor is monitoring from the command center. We&rsquo;ll visit the war room today &mdash; you&rsquo;ll see the system in action during an ACTUAL crisis.</p>
+            <span class="chatlog__time">Nov 21, 9:20 AM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Farrah</span>
+            <p>This is surreal. We&rsquo;re literally learning about flood management DURING a flood. Best case study ever? 🌊📚</p>
+            <span class="chatlog__time">Nov 21, 10:45 AM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Clinton</span>
+            <p>Governance is more than the way a government works... We need to look at the philosophy of a city &mdash; it is actually a mindset, a culture, an ecosystem.</p>
+            <span class="chatlog__time">Nov 21, 4:41 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Siti Suhana</span>
+            <p>The CCTV room is incredible. You can see every flood point in real time. In Miri we have cameras but no integration like this. Taking notes 📝</p>
+            <span class="chatlog__time">Nov 21, 5:30 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--self">
+            <span class="chatlog__name">Non</span>
+            <p>🔥 NON-STYLE EXIT INTERVIEW QUESTIONS: &ldquo;What&rsquo;s the one thing NST did that your city would never dare to do?&rdquo; &ldquo;What is the real reason your city moves slower than NST? Don&rsquo;t say budget.&rdquo; &ldquo;What excuse will you no longer use?&rdquo;</p>
+            <span class="chatlog__time">Nov 21, 6:45 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Tristan</span>
+            <p>OK that last question hit different. For Davao: &ldquo;We&rsquo;re too big.&rdquo; That&rsquo;s the excuse I&rsquo;m dropping. NST proved size doesn&rsquo;t matter &mdash; speed does.</p>
+            <span class="chatlog__time">Nov 21, 7:02 PM</span>
+          </div>
+
+          <div class="chatlog__msg chatlog__msg--system">&mdash; Post-workshop &mdash;</div>
+
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Minda</span>
+            <p>Just got back to Sarawak. Already pitched the &ldquo;Steal This Idea&rdquo; concept to my team. They love it. 📷</p>
+            <span class="chatlog__time">Nov 22, 9:45 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--other">
+            <span class="chatlog__name">Farrah</span>
+            <p>Have a safe flight everyone! This was genuinely the best workshop I&rsquo;ve been to. Not because of the content &mdash; because we actually DID something. 💚</p>
+            <span class="chatlog__time">Nov 22, 10:16 PM</span>
+          </div>
+          <div class="chatlog__msg chatlog__msg--self">
+            <span class="chatlog__name">Non</span>
+            <p>This group chat stays open. The handbook is just the beginning. See you all at the next city. 🌏✊</p>
+            <span class="chatlog__time">Nov 22, 11:30 PM</span>
+          </div>
+        </div>
+        <div class="chatlog__footer">End-to-end encrypted &middot; Messages from the real ASEAN-CSCOs group chat</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== NARRATIVE ====== -->
+  <section class="narrative section" id="narrative">
+    <div class="container">
+      <div class="narrative__inner" data-reveal>
+        <div class="narrative__header">
+          <span class="section__tag">The Story</span>
+          <h2 class="narrative__title">The War Room<br>and the Rain</h2>
+          <p class="narrative__meta">From the workshop in Nakhon Si Thammarat &mdash; November 2025</p>
+        </div>
+        <div class="narrative__photo-pair">
+          <img src="photos/1763875143668.jpg" alt="Officials monitoring flood CCTV feeds" loading="lazy">
+          <img src="photos/1763875144974.jpg" alt="Real-time hydro data dashboard" loading="lazy">
+        </div>
+        <div class="narrative__content">
+          <div class="narrative__chapter">
+            <h3 class="narrative__chapter-title">November Rain</h3>
+            <p class="narrative__text">The rain started on a Tuesday. By Thursday, the water was at waist level in the old quarter. But this time, something was different. The city already knew it was coming.</p>
+            <p class="narrative__text">Ten hours before the flood hit the city center, sensors upstream had triggered alerts. The war room&mdash;a modest room with large screens, a LINE group, and three people who hadn&rsquo;t slept&mdash;had already dispatched sandbag crews, opened evacuation shelters, and pushed warnings to 112,000 phones.</p>
+            <p class="narrative__text">This wasn&rsquo;t a miracle of technology. It was a miracle of <em>timing</em>. The sensors were cheap. The screens were old. The LINE group was free. What made it work was a system designed around one question: <strong>How do we buy more time?</strong></p>
+            <p class="narrative__text"><em>Why LINE?</em> In Thailand, LINE is the dominant messaging platform&mdash;54 million daily active users. Unlike WhatsApp, LINE supports mini-apps, official accounts, and push notifications that reach citizens where they already spend hours every day. Building city services inside LINE means zero app downloads and instant adoption.</p>
+          </div>
+          <details class="accordion accordion--narrative">
+            <summary class="accordion__trigger">Continue reading</summary>
+            <div class="accordion__content">
+              <p class="narrative__text">In the old days, the city learned about floods when citizens posted photos of submerged cars. By then, the damage was done. The Golden Period&mdash;that window between warning and impact&mdash;was wasted on confusion and phone trees.</p>
+              <p class="narrative__text">The NST model collapsed that chain. A sensor reading above threshold triggers an automatic alert. The alert goes simultaneously to the mayor, the district chiefs, and the public. No one waits for permission.</p>
+              <p class="narrative__text">At three in the morning, the mayor was broadcasting live from the pumping station. Within hours: 170,000 views. 30,000 active users tracking water levels in real time.</p>
+              <div class="narrative__divider"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="3" fill="#0F2B46"/><circle cx="20" cy="20" r="8" stroke="#0F2B46" stroke-width="1" opacity=".3"/></svg></div>
+              <h3 class="narrative__chapter-title">The City That Would Not Wait</h3>
+              <p class="narrative__text">After the flood receded, other cities called. They wanted to know what software to buy. The mayor laughed.</p>
+              <p class="narrative__text">&ldquo;You don&rsquo;t need software. You need a decision. Are you going to trust your citizens with real-time information, or are you going to keep pretending you can manage a crisis from a meeting room?&rdquo;</p>
+              <p class="narrative__text">The model isn&rsquo;t expensive. It isn&rsquo;t complicated. But it requires something most governments struggle with: <strong>the willingness to share control</strong>.</p>
+              <p class="narrative__text">That answer became the unofficial motto: <em>Build fast. Prove in crisis. Earn trust daily.</em></p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== METHODOLOGY ====== -->
+  <section class="methodology section section--dark" id="methodology">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag section__tag--light">How We Made This</span>
+        <h2 class="section__title section__title--light">AI + Humans = This Handbook</h2>
+        <p class="section__desc section__desc--light">Not written by committee. Not generated by chatbot. Co-produced in real time using a system designed by Dr. Non Arkaraprasertkul called <strong style="color:#64B5F6">RAC</strong>&mdash;Record, Analyze, Create.</p>
+      </div>
+      <div class="methodology__steps" data-reveal>
+        <div class="methodology__step">
+          <span class="methodology__step-num">01</span>
+          <h3>Record Everything</h3>
+          <p>Every session was audio-recorded with participant consent. 45 hours of conversations, 200+ observations, 168 questions captured across 2 days. The LINE group chat ran 24/7.</p>
+        </div>
+        <div class="methodology__step">
+          <span class="methodology__step-num">02</span>
+          <h3>AI-Powered Synthesis</h3>
+          <p>Overnight, Dr. Non used AI tools to analyze all Day 1 conversations and generate clustered themes, draft outlines, and pattern analysis. By Day 2 morning, a mock-up handbook structure was ready for review.</p>
+        </div>
+        <div class="methodology__step">
+          <span class="methodology__step-num">03</span>
+          <h3>Co-Create in Teams</h3>
+          <p>Participants were divided into 4 workstreams: Principles &amp; Pain Points (Intouch &amp; Tristan), Case Studies (Farrah), Replicability &amp; Toolkit (Minda), and Governance &amp; Systems (Clinton). Each team owned their chapters.</p>
+        </div>
+        <div class="methodology__step">
+          <span class="methodology__step-num">04</span>
+          <h3>Story-First Publishing</h3>
+          <p>No academic jargon. Every chapter follows a narrative structure: problem &rarr; confrontation &rarr; resolution. AI-generated slides were produced after each session to summarize insights in real time&mdash;shared instantly with participants for feedback.</p>
+        </div>
+      </div>
+
+      <!-- Workshop materials download -->
+      <div class="methodology__materials" data-reveal>
+        <h3 class="methodology__materials-title">Workshop Materials</h3>
+        <p class="methodology__materials-desc">AI-generated summaries and presentation slides produced during the workshop. Created in real time to inform the team&mdash;not polished final products, but authentic working documents.</p>
+        <div class="methodology__materials-grid">
+          <a href="2025 ASEAN CSCO Program/Governance_Innovation_The_Layered_Blueprint.pdf" class="methodology__material-card" target="_blank">
+            <span class="methodology__material-icon">📊</span>
+            <strong>Governance Innovation: The Layered Blueprint</strong>
+            <small>The &ldquo;Onion Model&rdquo; presentation — how NST&rsquo;s transformation works layer by layer</small>
+          </a>
+          <a href="2025 ASEAN CSCO Program/Ideas (Can be changed as discussed) ASEAN-Citizen-Centric-Smart-City-Handbook.pdf" class="methodology__material-card" target="_blank">
+            <span class="methodology__material-icon">💡</span>
+            <strong>Handbook Blueprint &amp; Ideas</strong>
+            <small>Planning document with the 10 Commandments, design principles, and chapter structure</small>
+          </a>
+          <a href="2025 ASEAN CSCO Program/(For ASCN) ASEAN Smart City Action Plan (Draft_24Mar2025).pdf" class="methodology__material-card" target="_blank">
+            <span class="methodology__material-icon">🌏</span>
+            <strong>ASEAN Smart City Action Plan 2026-2035</strong>
+            <small>Draft ASCAP policy framework — the regional context this handbook operates within</small>
+          </a>
+          <a href="2025 ASEAN CSCO Program/ASEAN-Digital-Capacity-Building-for-Smart-Cities.pptx" class="methodology__material-card" target="_blank">
+            <span class="methodology__material-icon">🎤</span>
+            <strong>Digital Capacity Building Presentation</strong>
+            <small>Main workshop presentation slides (PowerPoint)</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FULL HANDBOOK ====== -->
+  <section class="handbook section section--alt" id="handbook">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">Full Handbook</span>
+        <h2 class="section__title">The Citizen-First City</h2>
+        <p class="section__desc">The complete ASEAN Handbook for Chief Smart City Officers. Expand each section to read at your own pace.</p>
+      </div>
+      <div class="handbook__chapters" data-reveal>
+        <details class="accordion accordion--chapter">
+          <summary class="accordion__trigger"><span class="accordion__chapter-num">Part 1</span> The Foundation &mdash; A New Philosophy</summary>
+          <div class="accordion__content">
+            <h4>Escaping the Smart City Paradox</h4>
+            <p>The traditional top-down approach fails: <strong>Top-Down Solutions</strong> (chasing tech trends), <strong>High Cost, Low Trust</strong> (expensive systems nobody uses), and <strong>Slow Implementation</strong> (bureaucracy killing momentum).</p>
+            <h4>The Story of NST</h4>
+            <p>A city of 105,000 with 1,200 years of history. Repeatedly flooded, economically stagnant. Then Mayor Kanop was elected in 2021 after years of walking neighborhoods. He partnered with depa, and a three-year co-design journey began.</p>
+            <p>As a depa officer recalled: &ldquo;He brought an app mockup to the table. It was cartoonish, almost naive. But it was sincere.&rdquo;</p>
+          </div>
+        </details>
+        <details class="accordion accordion--chapter">
+          <summary class="accordion__trigger"><span class="accordion__chapter-num">Part 2</span> The Citizen-First Playbook</summary>
+          <div class="accordion__content">
+            <h4>The Four Pillars</h4>
+            <p><strong>1. People:</strong> Start with pain, not technology.</p>
+            <p><strong>2. Purpose:</strong> Translate frustration into a clear human-centered objective.</p>
+            <p><strong>3. Practicality:</strong> Focus on what&rsquo;s achievable now. Use local startups and existing resources.</p>
+            <p><strong>4. Proof:</strong> Launch pilots in weeks, not years. Test small, fail fast, iterate.</p>
+          </div>
+        </details>
+        <details class="accordion accordion--chapter">
+          <summary class="accordion__trigger"><span class="accordion__chapter-num">Part 3</span> From Blueprint to Reality &mdash; Scaling</summary>
+          <div class="accordion__content">
+            <h4>From Pilot to Scale</h4>
+            <p>The @NakhonCity platform became the primary channel for service delivery. Call center workload dropped 37%. Annual savings exceeded 2.3 million baht.</p>
+            <h4>Adaptation Framework</h4>
+            <ol>
+              <li><strong>Analyze Baseline City (NST):</strong> Deconstruct governance, infrastructure, data, culture</li>
+              <li><strong>Assess Your City:</strong> Honest self-assessment</li>
+              <li><strong>Conduct Gap Analysis:</strong> What&rsquo;s different? What strengths can you leverage?</li>
+              <li><strong>Develop a 30-60-90 Day Roadmap:</strong> Launch a pilot tailored to your context</li>
+            </ol>
+          </div>
+        </details>
+        <details class="accordion accordion--chapter">
+          <summary class="accordion__trigger"><span class="accordion__chapter-num">10 Commandments</span> The Core Principles</summary>
+          <div class="accordion__content">
+            <ol class="commandments">
+              <li>Start Small, Act Fast</li>
+              <li>Solve Pain Points First</li>
+              <li>Data Before Hardware</li>
+              <li>Trust Before Technology</li>
+              <li>Culture Beats Procurement</li>
+              <li>Pilot &rarr; Learn &rarr; Scale</li>
+              <li>Engage Citizens Early</li>
+              <li>Use What You Already Have</li>
+              <li>Keep Solutions Simple</li>
+              <li>Evidence Over Marketing</li>
+            </ol>
+            <p><em>If one city can improve one service in 90 days, the future of the entire ASEAN community changes.</em></p>
+          </div>
+        </details>
+        <details class="accordion accordion--chapter">
+          <summary class="accordion__trigger"><span class="accordion__chapter-num">Appendix</span> Concept Note &amp; Programme Details</summary>
+          <div class="accordion__content">
+            <h4>ASEAN-CSCOs Programme</h4>
+            <p>Funded by the ASEAN ICT Fund. Co-organized by depa. Theme: &ldquo;From Knowledge to Action: Advancing ASEAN Smart Cities through Citizen-Centric Approaches.&rdquo;</p>
+            <h4>Workshop Stats</h4>
+            <p>5 countries represented &middot; 45 hours of recorded insights &middot; 200+ observations &middot; 168 questions asked &middot; Participants from Thailand, Indonesia, Malaysia, Philippines, and Australia/UNDP</p>
+          </div>
+        </details>
+        <details class="accordion accordion--chapter">
+          <summary class="accordion__trigger"><span class="accordion__chapter-num">Voices</span> Participant Testimonies</summary>
+          <div class="accordion__content">
+            <blockquote class="testimony">&ldquo;I don&rsquo;t think anyone ever asked us what we needed before. When we got the internet in our school, the first thing the kids asked was: Can we learn how to make games?&rdquo;<cite>&mdash; Local secondary school teacher, NST</cite></blockquote>
+            <blockquote class="testimony">&ldquo;He didn&rsquo;t come to promise things. He just sat down, asked questions, and remembered our names.&rdquo;<cite>&mdash; Street vendor, on Mayor Kanop</cite></blockquote>
+            <blockquote class="testimony">&ldquo;When we first met, Dr. Kanop brought an app mockup. It was cartoonish, almost naive. But it was sincere.&rdquo;<cite>&mdash; depa officer</cite></blockquote>
+            <blockquote class="testimony">&ldquo;We sent our staff to Korea, Japan, and even Eastern Europe to study municipal innovation. It wasn&rsquo;t about copying. It was about seeing what&rsquo;s possible.&rdquo;<cite>&mdash; Mayor&rsquo;s advisor</cite></blockquote>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PHOTO GALLERY ====== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">Photo Album</span>
+        <h2 class="section__title">Scenes from the Workshop</h2>
+        <p class="section__desc">Two days, five countries, one flooded city. Here&rsquo;s what it looked like.</p>
+      </div>
+      <div class="gallery__grid" data-reveal>
+        <img src="photos/1763875142881.jpg" alt="CCTV war room monitoring" loading="lazy">
+        <img src="photos/1763875145887.jpg" alt="Workshop session" loading="lazy">
+        <img src="photos/1763875142254.jpg" alt="Workshop discussion" loading="lazy">
+        <img src="photos/1763875527561.jpg" alt="Field visit" loading="lazy">
+        <img src="photos/1763875528889.jpg" alt="Group workshop session" loading="lazy">
+        <img src="photos/1763875529442.jpg" alt="Participants at site visit" loading="lazy">
+        <img src="photos/1763875142587.jpg" alt="Workshop activities" loading="lazy">
+        <img src="photos/1763875531228.jpg" alt="Closing session" loading="lazy">
+        <img src="photos/1763875528514.jpg" alt="Workshop moments" loading="lazy">
+        <img src="photos/1763875145974.jpg" alt="Workshop discussions" loading="lazy">
+        <img src="photos/1763962092499.jpg" alt="Workshop infographic" loading="lazy">
+        <img src="photos/1763875530053.jpg" alt="Conference room discussions" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA ====== -->
+  <section class="cta section" id="cta">
+    <div class="container">
+      <div class="cta__inner" data-reveal>
+        <h2 class="cta__title">Smart Cities Are Built by<br>People Who Don&rsquo;t Wait</h2>
+        <p class="cta__desc">This handbook is free. The ideas are proven. The only thing missing is your city.</p>
+        <a href="https://www.linkedin.com/company/asean-csco/" target="_blank" rel="noopener" class="btn btn--white btn--lg">Join ASEAN CSCO on LinkedIn <svg width="18" height="18" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TEAM & CREDITS ====== -->
+  <section class="team section section--alt" id="team">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__tag">The Team</span>
+        <h2 class="section__title">Made Possible By</h2>
+      </div>
+
+      <!-- Core Team -->
+      <div class="team__section" data-reveal>
+        <h3 class="team__group-title">Project Team &mdash; Digital Economy Promotion Agency (depa) &amp; Smart City Thailand Office</h3>
+        <div class="team__members">
+          <div class="team__member"><strong>Supakorn Siddhichai</strong><span>Executive Vice President, depa</span></div>
+          <div class="team__member"><strong>Pracha Asawateera</strong><span>Vice President, depa Southern District</span></div>
+          <div class="team__member"><strong>Non Arkaraprasertkul</strong><span>Lead Facilitator &amp; Programme Designer</span></div>
+          <div class="team__member"><strong>Nattaphat Kietchaiyakorn</strong><span>Programme Coordinator</span></div>
+          <div class="team__member"><strong>Wirawee Linsuwanon</strong><span>Event Coordinator &amp; Logistics</span></div>
+        </div>
+      </div>
+
+      <div class="team__section" data-reveal>
+        <h3 class="team__group-title">Advisors</h3>
+        <div class="team__members">
+          <div class="team__member"><strong>Mayor Kanop Ketchart</strong><span>Mayor of Nakhon Si Thammarat</span></div>
+          <div class="team__member"><strong>Lim Chze Cheen</strong><span>ASEAN Secretariat</span></div>
+        </div>
+      </div>
+
+      <div class="team__section" data-reveal>
+        <h3 class="team__group-title">ASEAN Delegates &amp; Participants</h3>
+        <div class="team__members team__members--compact">
+          <div class="team__member"><strong>Tristan Dwight Domingo</strong><span>Davao City, Philippines</span></div>
+          <div class="team__member"><strong>Ramon Miranda</strong><span>City of Manila, Philippines</span></div>
+          <div class="team__member"><strong>Minda James Semilan</strong><span>Sarawak Digital Economy Corp., Malaysia</span></div>
+          <div class="team__member"><strong>Siti Suhana</strong><span>Miri City Council, Sarawak, Malaysia</span></div>
+          <div class="team__member"><strong>Farrah Eriska Putri</strong><span>University of Indonesia</span></div>
+          <div class="team__member"><strong>Clinton Moore</strong><span>UNDP Urban Governance</span></div>
+          <div class="team__member"><strong>Intouch</strong><span>CEO &amp; Co-Founder, ViaBus</span></div>
+        </div>
+      </div>
+
+      <div class="team__section" data-reveal>
+        <h3 class="team__group-title">Nakhon Si Thammarat Municipality</h3>
+        <p class="team__acknowledgment">Special thanks to the Deputy Mayors, the Smart City Division team, the municipal staff who supported logistics, the ICT center team who opened their war room to us, and everyone who kept the city running while hosting international guests during an actual flood season. You are the real story of this handbook.</p>
+        <div class="team__members team__members--compact">
+          <div class="team__member"><strong>Peem Na Pattalung</strong><span>Smart City Division</span></div>
+          <div class="team__member"><strong>Mrs. Arne Ganjana</strong><span>Director, Budgeting Division</span></div>
+        </div>
+      </div>
+
+      <div class="team__section" data-reveal>
+        <h3 class="team__group-title">Institutional Support</h3>
+        <p class="team__acknowledgment">This programme was made possible through the ASEAN ICT Fund, the ASEAN Smart Cities Network (ASCN), and the support of the ASEAN Secretariat. The workshop aligns with the ASEAN Smart City Action Plan (ASCAP) 2026&ndash;2035 and draws on frameworks endorsed by UNDP, UN-Habitat, and regional sustainability standards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__sponsors">
+        <span class="footer__sponsors-label">Supported by</span>
+        <div class="footer__sponsors-logos">
+          <img src="photos/png-transparent-emblem-of-the-association-of-southeast-asian-nations-philippines-aseanの紋章-asean-economic-community-southeast-asia-text-logo-sign.png" alt="ASEAN" loading="lazy">
+          <img src="photos/depa.png" alt="depa" loading="lazy">
+          <img src="photos/Smart City Thailand logo.jpg" alt="Smart City Thailand" loading="lazy">
+          <img src="photos/Seal_of_Nakhon_Si_Thammarat.png" alt="NST Municipality" loading="lazy">
+        </div>
+      </div>
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo"><svg width="24" height="24" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#fff" fill-opacity=".12"/><path d="M9 22V12l7-5 7 5v10l-7-4-7 4z" fill="#fff" opacity=".7"/></svg><span>CSCO Handbook</span></a>
+          <p>A public resource from the ASEAN Smart Cities Network. Produced from the CSCO Workshop in Nakhon Si Thammarat, Thailand. Funded by the ASEAN ICT Fund.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Navigate</h4>
+            <ul>
+              <li><a href="#manifesto">Manifesto</a></li>
+              <li><a href="#blueprint">The Blueprint</a></li>
+              <li><a href="#toolkit">Steal Ideas</a></li>
+              <li><a href="#platform">Platform</a></li>
+              <li><a href="#narrative">The Story</a></li>
+              <li><a href="#handbook">Full Handbook</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="https://www.linkedin.com/company/asean-csco/" target="_blank" rel="noopener">ASEAN CSCO &mdash; LinkedIn</a></li>
+              <li><a href="#">ASEAN Smart Cities Network</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__compliance">
+        <p>This handbook aligns with the <strong>ASEAN Smart City Action Plan (ASCAP) 2026&ndash;2035</strong>, <strong>UN-Habitat</strong> global urban indicators, and <strong>UNDP</strong> sustainable urban governance frameworks. Data collection and processing comply with Thailand&rsquo;s <strong>Personal Data Protection Act (PDPA)</strong>. All participant recordings were made with informed consent.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Digital Economy Promotion Agency (depa), Ministry of Digital Economy and Society, Thailand &middot; ASEAN Smart Cities Network &middot; ASEAN Secretariat &middot; Free to access, share, and adapt under <a href="#" style="color:#2E8BC0">CC BY-NC 4.0</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
