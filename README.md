@@ -116,7 +116,7 @@ What the page actually loads:
 | [`CNAME`](CNAME) | GitHub Pages custom domain: `asean.nonarkara.org` |
 | [`docs/hero-banner.png`](docs/hero-banner.png) | README illustration |
 
-[`script.js`](script.js) does four things in the browser: sticky nav, a mobile menu, IntersectionObserver scroll-reveal, clipboard copy for the six toolkit ideas, and injection of four sample “vibes” cards into `#gdelt-feed`. There is no network call to GDELT or any other live feed. The page loads fonts from Google Fonts; everything else is static files in this repository.
+[`script.js`](script.js) handles sticky nav, a mobile menu, IntersectionObserver scroll-reveal, clipboard copy for the six toolkit ideas, and injection of four sample “vibes” cards into `#gdelt-feed`. There is no network call to GDELT or any other live feed. The page loads fonts from Google Fonts; everything else is static files in this repository.
 
 The reconstructed WhatsApp-style thread on the page is editorial presentation of workshop-era messages, not a live chat client.
 
